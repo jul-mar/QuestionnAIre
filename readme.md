@@ -10,7 +10,7 @@ It’s a chatbot designed to interview patients and collect their medical histor
 
 
 # What is it for?
-Patients often wait a lot of time in the waiting room in hospitals or privat practices. At the same time doctors dont have enough time for doing a thorough patient history. The patient could use the time waiting talking to an AI Chat bot which gives the doctor a summary of the most important facts before he sees the patient.
+Patients often spend a long time waiting in hospitals or private practices. Meanwhile, doctors often lack the time to conduct a thorough medical history. This waiting period could be used more effectively: patients could interact with an AI chatbot that gathers relevant medical information and provides the doctor with a summary of the most important facts before the consultation begins.
 
 ## Documentation
 
