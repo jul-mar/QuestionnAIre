@@ -2,7 +2,7 @@
 
 ## Repository Link
 
-[https://github.com/jul-mar/anamneseai]
+[https://github.com/jul-mar/QuestionnAIre]
 
 ## Description
 A sophisticated chatbot designed to interview patients and gather their medical history prior to a doctor's appointment. The application uses **LangGraph** to create a flexible, stateful graph that orchestrates the conversation flow. This allows for a more dynamic and robust interaction compared to a linear script.
