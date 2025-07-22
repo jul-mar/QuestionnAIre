@@ -43,23 +43,6 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 pip install uv
 ```
 
-**2. Run the setup script:**
-```bash
-# Run the automated setup script
-./setup-uv.sh
-```
-
-This will automatically:
-- Initialize the UV project
-- Create a virtual environment
-- Install all dependencies
-- Set up the project structure
-
-### Manual Setup
-
-### 1. Backend Setup
-First, set up and run the backend server.
-
 **a. Install dependencies:**
 
 **With UV (recommended):**
@@ -90,7 +73,24 @@ OPENAI_API_KEY="your_openai_api_key_here"
 ```
 The application uses `gpt-4o-mini` by default. You can change this in `backend/config.json` if needed.
 
-**c. Run the backend server:**
+
+**Use the start script to start the frontend and backend:**
+```bash
+./start.sh
+```
+
+
+**Access the Application:**
+Open your web browser and navigate to:
+**[http://localhost:8080](http://localhost:8080)**
+
+You can now interact with the QuestionnAIre chatbot.
+
+
+### Manual Setup of frontend and backend
+
+### 1. Backend Setup
+**Run the backend server:**
 
 **With UV:**
 ```bash
