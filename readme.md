@@ -5,7 +5,8 @@
 [https://github.com/jul-mar/QuestionnAIre]
 
 ## Description
-A sophisticated chatbot designed to interview patients and gather their medical history prior to a doctor's appointment. The application uses **LangGraph** to create a flexible, stateful graph that orchestrates the conversation flow. This allows for a more dynamic and robust interaction compared to a linear script.
+This is the project I created for the course "From LLMs to AI Agents", part of the Machine Learning Mini-Degree I'm attending at Opencampus.sh.
+It’s a chatbot designed to interview patients and collect their medical history prior to a doctor’s appointment. The application uses LangGraph to build a flexible, stateful graph that orchestrates the conversation flow, enabling more dynamic and robust interactions compared to a linear script.
 
 
 # What is it for?
