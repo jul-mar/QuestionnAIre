@@ -17,7 +17,7 @@ Patients often wait a lot of time in the waiting room in hospitals or privat pra
 
 ## Cover Image
 
-![Project Cover Image](presentation/QuestionnAIre logo.png)
+![Project Cover Image](presentation/logo.png)
 
 ## Architecture
 The application is split into two main components:
