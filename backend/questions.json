@@ -1,0 +1,123 @@
+[
+  {
+    "id": "chief_complaint",
+    "question": "What is the reason for your consultation? Fever or cough?",
+    "criteria": [
+      "Must indicate whether the main symptom is fever or cough",
+      "Must refer to one of the two symptoms",
+      "Should be clear and unambiguous"
+    ],
+    "category": "primary",
+    "required": true
+  },
+  {
+    "id": "symptom_onset",
+    "question": "When did your symptoms first start?",
+    "criteria": [
+      "Must include a time period (days, weeks, months, years)",
+      "Must be specific (not vague terms like 'recently' or 'a while ago')",
+      "Should provide context for timing (e.g., 'about 3 days ago', 'last Monday')"
+    ],
+    "category": "history",
+    "required": true
+  },
+  {
+    "id": "symptom_character",
+    "question": "How would you describe your symptoms? Please be as specific as possible about what you're experiencing.",
+    "criteria": [
+      "Must provide descriptive details about the symptom",
+      "Should include quality, intensity, or characteristics",
+      "Must be more than just repeating the symptom name"
+    ],
+    "category": "description",
+    "required": true
+  },
+  {
+    "id": "symptom_severity",
+    "question": "On a scale of 1-10, how severe are your symptoms? How are they affecting your daily activities?",
+    "criteria": [
+      "Must include a numeric rating or clear severity description",
+      "Should describe impact on daily activities",
+      "Must provide context for severity level"
+    ],
+    "category": "assessment",
+    "required": true
+  },
+  {
+    "id": "aggravating_factors",
+    "question": "Is there anything that makes your symptoms worse?",
+    "criteria": [
+      "Must identify specific triggers or worsening factors",
+      "Should include activities, positions, times, or circumstances",
+      "Can include 'nothing' if no aggravating factors are known"
+    ],
+    "category": "modifying_factors",
+    "required": true
+  },
+  {
+    "id": "relieving_factors",
+    "question": "Is there anything that makes your symptoms better or provides relief?",
+    "criteria": [
+      "Must identify specific relief measures",
+      "Should include medications, positions, activities, or treatments tried",
+      "Can include 'nothing' if no relief has been found"
+    ],
+    "category": "modifying_factors",
+    "required": true
+  },
+  {
+    "id": "associated_symptoms",
+    "question": "Are you experiencing any other symptoms along with your main concern?",
+    "criteria": [
+      "Must list any additional symptoms clearly",
+      "Should be specific about each additional symptom",
+      "Can state 'no other symptoms' if none are present"
+    ],
+    "category": "review_of_systems",
+    "required": true
+  },
+  {
+    "id": "previous_episodes",
+    "question": "Have you experienced similar symptoms before? If so, when and what was done about it?",
+    "criteria": [
+      "Must clearly state if symptoms have occurred before",
+      "Should include timing of previous episodes if applicable",
+      "Should mention any previous treatments or diagnoses"
+    ],
+    "category": "history",
+    "required": true
+  },
+  {
+    "id": "current_medications",
+    "question": "What medications are you currently taking, including over-the-counter medications and supplements?",
+    "criteria": [
+      "Must list specific medication names or state 'none'",
+      "Should include dosages if known",
+      "Should include over-the-counter medications and supplements"
+    ],
+    "category": "medications",
+    "required": true
+  },
+  {
+    "id": "allergies",
+    "question": "Do you have any known allergies to medications, foods, or other substances?",
+    "criteria": [
+      "Must clearly state if allergies exist or not",
+      "Should specify the allergen if allergies are present",
+      "Should describe the type of reaction if applicable"
+    ],
+    "category": "allergies",
+    "required": true
+  },
+  {
+    "id": "medical_history",
+    "question": "Do you have any significant medical conditions or chronic illnesses?",
+    "criteria": [
+      "Must state if medical conditions exist or not",
+      "Should list specific conditions if present",
+      "Should include chronic illnesses and major past medical events"
+    ],
+    "category": "past_medical_history",
+    "required": true
+  }
+]
